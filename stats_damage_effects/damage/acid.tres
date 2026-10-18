@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Damage" format=3 uid="uid://ciwygd5q4calp"]
+
+[ext_resource type="Script" uid="uid://pjaslw58arar" path="res://stats_damage_effects/damage.gd" id="2_qsge6"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_doq2f"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0erli"]
+atlas = SubResource("CompressedTexture2D_doq2f")
+region = Rect2(48, 48, 16, 16)
+
+[resource]
+script = ExtResource("2_qsge6")
+name = &"Acid"
+icon = SubResource("AtlasTexture_0erli")
+accent_color = Color(0.08262872, 0.6437439, 0.36873332, 1)
+metadata/_custom_type_script = "uid://xiqjjykxhie5"

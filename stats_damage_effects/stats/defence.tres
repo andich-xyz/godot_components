@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Stat" format=3 uid="uid://ll5xgpt2tmvu"]
+
+[ext_resource type="Texture2D" path="res://assets/textures/icons/defence.tres" id="1_y3ws7"]
+[ext_resource type="Script" uid="uid://d33vrmk0umi7a" path="res://stats_damage_effects/stat.gd" id="2_51oph"]
+
+[resource]
+script = ExtResource("2_51oph")
+name = &"Defence"
+icon = ExtResource("1_y3ws7")
+metadata/_custom_type_script = "uid://ru4ijvlkt4le"

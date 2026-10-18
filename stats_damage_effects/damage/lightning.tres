@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Damage" format=3 uid="uid://dvaw0u8x70uh2"]
+
+[ext_resource type="Script" uid="uid://pjaslw58arar" path="res://stats_damage_effects/damage.gd" id="1_ra27i"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_ra27i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_md12u"]
+atlas = SubResource("CompressedTexture2D_ra27i")
+region = Rect2(48, 0, 16, 16)
+
+[resource]
+script = ExtResource("1_ra27i")
+name = &"Lightning"
+icon = SubResource("AtlasTexture_md12u")
+accent_color = Color(0.8872189, 0.6151546, 0.06644112, 1)
+metadata/_custom_type_script = "uid://xiqjjykxhie5"

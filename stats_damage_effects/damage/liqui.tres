@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Damage" format=3 uid="uid://8ubywtu2r8s4"]
+
+[ext_resource type="Script" uid="uid://pjaslw58arar" path="res://stats_damage_effects/damage.gd" id="1_1qpaq"]
+
+[resource]
+script = ExtResource("1_1qpaq")
+name = &"Liqui"
+accent_color = Color(0, 0.39999986, 1, 1)
+metadata/_custom_type_script = "uid://xiqjjykxhie5"

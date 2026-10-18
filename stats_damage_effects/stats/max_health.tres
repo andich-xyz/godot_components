@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Stat" format=3 uid="uid://bikbe4t7350yk"]
+
+[ext_resource type="Script" uid="uid://d33vrmk0umi7a" path="res://stats_damage_effects/stat.gd" id="1_pdxg6"]
+[ext_resource type="Texture2D" path="res://assets/textures/icons/max_health.tres" id="1_q5k83"]
+
+[resource]
+script = ExtResource("1_pdxg6")
+name = &"Max Health"
+icon = ExtResource("1_q5k83")
+metadata/_custom_type_script = "uid://ru4ijvlkt4le"

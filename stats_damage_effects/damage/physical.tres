@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="Damage" format=3 uid="uid://no4xjcai53h1"]
+
+[ext_resource type="Script" uid="uid://pjaslw58arar" path="res://stats_damage_effects/damage.gd" id="1_0tbna"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_0tbna"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxe1f"]
+atlas = SubResource("CompressedTexture2D_0tbna")
+region = Rect2(32, 16, 16, 16)
+
+[resource]
+script = ExtResource("1_0tbna")
+name = &"Physical"
+icon = SubResource("AtlasTexture_vxe1f")
+accent_color = Color(0.86354923, 0.9585654, 0.98826295, 1)
+metadata/_custom_type_script = "uid://xiqjjykxhie5"

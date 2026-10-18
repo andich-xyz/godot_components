@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Stat" format=3 uid="uid://c6yc5udcatgs3"]
+
+[ext_resource type="Script" uid="uid://d33vrmk0umi7a" path="res://stats_damage_effects/stat.gd" id="2_vrqwa"]
+
+[resource]
+script = ExtResource("2_vrqwa")
+name = &"Attack Distance"

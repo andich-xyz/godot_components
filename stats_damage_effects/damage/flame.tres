@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Damage" format=3 uid="uid://dk8nu0exmnb4k"]
+
+[ext_resource type="Script" uid="uid://pjaslw58arar" path="res://stats_damage_effects/damage.gd" id="1_tpolp"]
+
+[resource]
+script = ExtResource("1_tpolp")
+name = &"Flame"
+accent_color = Color(0.99, 0.42239997, 0.19799998, 1)
+metadata/_custom_type_script = "uid://xiqjjykxhie5"

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Stat" format=3 uid="uid://1lyswlus08qb"]
+
+[ext_resource type="Texture2D" path="res://assets/textures/icons/mana.png" id="1_q0ry5"]
+[ext_resource type="Script" uid="uid://d33vrmk0umi7a" path="res://stats_damage_effects/stat.gd" id="2_sr5gn"]
+
+[resource]
+script = ExtResource("2_sr5gn")
+name = &"Mana"
+icon = ExtResource("1_q0ry5")
+metadata/_custom_type_script = "uid://ru4ijvlkt4le"
