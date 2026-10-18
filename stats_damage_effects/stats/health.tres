@@ -1,10 +1,8 @@
 [gd_resource type="Resource" script_class="Stat" format=3 uid="uid://c20wio16yes8b"]
 
-[ext_resource type="Texture2D" path="res://assets/textures/icons/heart.tres" id="1_yrir2"]
 [ext_resource type="Script" uid="uid://d33vrmk0umi7a" path="res://stats_damage_effects/stat.gd" id="2_8aqw8"]
 
 [resource]
 script = ExtResource("2_8aqw8")
 name = &"Health"
-icon = ExtResource("1_yrir2")
 metadata/_custom_type_script = "uid://ru4ijvlkt4le"

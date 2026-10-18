@@ -1,10 +1,8 @@
 [gd_resource type="Resource" script_class="Stat" format=3 uid="uid://cvvp5feg0l7l6"]
 
-[ext_resource type="Texture2D" path="res://assets/textures/icons/weapons.tres" id="1_pihcw"]
 [ext_resource type="Script" uid="uid://d33vrmk0umi7a" path="res://stats_damage_effects/stat.gd" id="2_5y0kk"]
 
 [resource]
 script = ExtResource("2_5y0kk")
 name = &"Damage"
-icon = ExtResource("1_pihcw")
 metadata/_custom_type_script = "uid://ru4ijvlkt4le"

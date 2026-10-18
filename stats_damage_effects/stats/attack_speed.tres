@@ -1,10 +1,8 @@
 [gd_resource type="Resource" script_class="Stat" format=3 uid="uid://cf8lnqlivk1ey"]
 
-[ext_resource type="Texture2D" path="res://assets/textures/icons/attack_speed.tres" id="1_qnw2q"]
 [ext_resource type="Script" uid="uid://d33vrmk0umi7a" path="res://stats_damage_effects/stat.gd" id="2_epuls"]
 
 [resource]
 script = ExtResource("2_epuls")
 name = &"Attack Speed"
-icon = ExtResource("1_qnw2q")
 metadata/_custom_type_script = "uid://ru4ijvlkt4le"
