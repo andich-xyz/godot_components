@@ -2,13 +2,13 @@
 
 importer="svg"
 type="DPITexture"
-uid="uid://c6vdfv3dag3kp"
-path="res://.godot/imported/video_camera.svg-0b754072128ece4c5da1b194e59c549c.dpitex"
+uid="uid://bfvnwguv7gq0f"
+path="res://.godot/imported/arrow_cross.svg-c81b543f5f47b5fa2e117cbaab5600f2.dpitex"
 
 [deps]
 
-source_file="res://cad_camera/video_camera.svg"
-dest_files=["res://.godot/imported/video_camera.svg-0b754072128ece4c5da1b194e59c549c.dpitex"]
+source_file="res://addons/root_motion/arrow_cross.svg"
+dest_files=["res://.godot/imported/arrow_cross.svg-c81b543f5f47b5fa2e117cbaab5600f2.dpitex"]
 
 [params]
 

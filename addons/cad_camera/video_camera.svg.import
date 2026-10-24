@@ -2,13 +2,13 @@
 
 importer="svg"
 type="DPITexture"
-uid="uid://bhr32g3luk2bx"
-path="res://.godot/imported/bell.svg-cb9df188e4905e9b4065959ccc4b6b71.dpitex"
+uid="uid://c6vdfv3dag3kp"
+path="res://.godot/imported/video_camera.svg-368ac364baff509ae53e59084d4661d4.dpitex"
 
 [deps]
 
-source_file="res://notification/bell.svg"
-dest_files=["res://.godot/imported/bell.svg-cb9df188e4905e9b4065959ccc4b6b71.dpitex"]
+source_file="res://addons/cad_camera/video_camera.svg"
+dest_files=["res://.godot/imported/video_camera.svg-368ac364baff509ae53e59084d4661d4.dpitex"]
 
 [params]
 

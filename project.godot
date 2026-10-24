@@ -29,6 +29,10 @@ gdscript/warnings/missing_await=1
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/root_motion/plugin.cfg")
+
 [importer_defaults]
 
 svg={

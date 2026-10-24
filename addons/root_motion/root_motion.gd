@@ -1,6 +1,5 @@
-@icon("res://assets/textures/icons/arrow_cross.svg")
-@tool
-class_name RootMotionComponent
+@icon("arrow_cross.svg") @tool
+class_name RootMotion
 extends Node
 
 

@@ -2,13 +2,13 @@
 
 importer="svg"
 type="DPITexture"
-uid="uid://b72yy4wn0nban"
-path="res://.godot/imported/magnet.svg-ea9c17e1a2e5145a744f1fb0113d0fb5.dpitex"
+uid="uid://bhr32g3luk2bx"
+path="res://.godot/imported/bell.svg-810fde10e38b90c209ff728e6bee4e01.dpitex"
 
 [deps]
 
-source_file="res://snapping/magnet.svg"
-dest_files=["res://.godot/imported/magnet.svg-ea9c17e1a2e5145a744f1fb0113d0fb5.dpitex"]
+source_file="res://addons/notification/bell.svg"
+dest_files=["res://.godot/imported/bell.svg-810fde10e38b90c209ff728e6bee4e01.dpitex"]
 
 [params]
 

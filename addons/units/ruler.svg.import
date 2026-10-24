@@ -3,12 +3,12 @@
 importer="svg"
 type="DPITexture"
 uid="uid://b7vwku7hixkp7"
-path="res://.godot/imported/ruler.svg-c1f90f3cf7e59f8e3d0d0ccf56d2512e.dpitex"
+path="res://.godot/imported/ruler.svg-99d5ea3ffc78581bfb3b352c081fd446.dpitex"
 
 [deps]
 
-source_file="res://units/ruler.svg"
-dest_files=["res://.godot/imported/ruler.svg-c1f90f3cf7e59f8e3d0d0ccf56d2512e.dpitex"]
+source_file="res://addons/units/ruler.svg"
+dest_files=["res://.godot/imported/ruler.svg-99d5ea3ffc78581bfb3b352c081fd446.dpitex"]
 
 [params]
 
