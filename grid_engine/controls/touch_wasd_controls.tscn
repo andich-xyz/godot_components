@@ -1,0 +1,45 @@
+[gd_scene format=3 uid="uid://cbaicklxl0kg"]
+
+[ext_resource type="Script" uid="uid://bi5ylfsul58ds" path="res://grid_engine/controls/touch_wasd_controls.gd" id="1_cccuy"]
+
+[node name="TouchWASDControls" type="VBoxContainer" unique_id=37780723]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+script = ExtResource("1_cccuy")
+
+[node name="Control" type="Control" parent="." unique_id=623641485]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+size_flags_horizontal = 4
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="Control" unique_id=464124758 groups=["touch_wasd_buttons"]]
+action = "ui_up"
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=699690915]
+layout_mode = 2
+alignment = 1
+
+[node name="Control" type="Control" parent="HBoxContainer" unique_id=268743875]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="HBoxContainer/Control" unique_id=291757224 groups=["touch_wasd_buttons"]]
+action = "ui_left"
+
+[node name="Control2" type="Control" parent="HBoxContainer" unique_id=1283223570]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="HBoxContainer/Control2" unique_id=448369907 groups=["touch_wasd_buttons"]]
+action = "ui_down"
+
+[node name="Control3" type="Control" parent="HBoxContainer" unique_id=993760316]
+custom_minimum_size = Vector2(32, 32)
+layout_mode = 2
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="HBoxContainer/Control3" unique_id=756292796 groups=["touch_wasd_buttons"]]
+action = "ui_right"

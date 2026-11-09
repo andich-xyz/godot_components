@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://c1vkpm1v2ssrg"]
+
+[ext_resource type="Script" uid="uid://cg3r3sk1lnwo0" path="res://grid_engine/2d_grid.gd" id="1_dbrup"]
+[ext_resource type="PackedScene" uid="uid://cbaicklxl0kg" path="res://grid_engine/controls/touch_wasd_controls.tscn" id="2_sqqqo"]
+[ext_resource type="Texture2D" uid="uid://dq8h57jcefjxp" path="res://grid_engine/controls/touch_button_normal.tres" id="3_psuxv"]
+[ext_resource type="Texture2D" uid="uid://bl2tiuv8oectw" path="res://grid_engine/controls/touch_button_pressed.tres" id="4_pdxwp"]
+[ext_resource type="Texture2D" uid="uid://bykb4k3ld8k4r" path="res://icon.svg" id="5_pdxwp"]
+
+[node name="Node2D" type="Node2D" unique_id=691874534]
+script = ExtResource("1_dbrup")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=848770991]
+
+[node name="MarginContainer" type="MarginContainer" parent="CanvasLayer" unique_id=327753367]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -68.0
+offset_right = 104.0
+grow_vertical = 0
+theme_override_constants/margin_left = 120
+theme_override_constants/margin_bottom = 100
+
+[node name="TouchWASDControls" parent="CanvasLayer/MarginContainer" unique_id=37780723 instance=ExtResource("2_sqqqo")]
+layout_mode = 2
+texture_normal = ExtResource("3_psuxv")
+texture_pressed = ExtResource("4_pdxwp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1125418203]
+unique_name_in_owner = true
+texture = ExtResource("5_pdxwp")
